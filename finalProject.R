@@ -62,12 +62,9 @@ hours_per_day <- ggplot(cleanedData, aes(x = Hours.Category, y = Anxiety)) +
   labs(title = "Anxiety by Hours Listening to Music per Day", x = "Hours Spent Listening to Music Per Day", y = "Anxiety (Out of 10)") +
   theme(plot.title = element_text(hjust = 0.5))
 
-
-
-
-
-
-
-
-
-
+# Display the plots
+print(anxietyChart)
+print(folk_latin_plot)
+print(anxiety_age_range)
+print(instrumentalist_density_plot)
+print(hours_per_day)
