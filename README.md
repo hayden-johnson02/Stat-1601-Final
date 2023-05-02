@@ -3,4 +3,4 @@ Final data visualization for STAT 1601 at the University of Virginia. To run our
 ```
 setwd("/path/to/your/directory")
 ```
-Then, make sure that the survey results file named mxmh_survey_results.csv is in the same directory as the R script. You can then run the R script named final_project.R to see the graphs we created.
+Then, make sure that the survey results file named `mxmh_survey_results.csv` is in the same directory as the R script. You can then run the R script named `final_project.R` to see the graphs we created.
